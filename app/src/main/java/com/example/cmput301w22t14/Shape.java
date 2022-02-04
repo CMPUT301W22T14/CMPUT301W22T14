@@ -3,11 +3,11 @@ package com.example.cmput301w22t14;
 public abstract class Shape {
     private int x;
     private int y;
-    private String color = "blue";
-
-    public Shape(int x, int y) {
+    private String color;
+    public Shape(int x, int y, String color) {
         this.x = x;
         this.y = y;
+        this.color = color;
     }
 
     public int getX() {
