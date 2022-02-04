@@ -3,6 +3,7 @@ package com.example.cmput301w22t14;
 public class Triangle extends Shape {
     int b;
     int h;
+    String color = "Blue";
 
     public Triangle(int w, int h) {
         this.b = b;
